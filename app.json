@@ -1,12 +1,14 @@
 {
   "expo": {
-    "name": "Frontend",
-    "slug": "Frontend",
+    "name": "Thelivery",
+    "slug": "Thelivery",
+    "primaryColor": "#9C1BB6",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "platforms": ["android"],
+    "icon": "./src/Components/assets/finicon2.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/Components/assets/finicon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,7 +23,6 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
